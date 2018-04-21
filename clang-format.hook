@@ -20,7 +20,7 @@ case "${1}" in
     for file in `git diff-index --cached --name-only HEAD` ; do
       if [ -f $file ]; then
         suffix="${file##*.}x"
-        if [ "cpp"x = ${suffix} ] || [ "c"x = ${suffix} ] || [ "h"x = ${suffix} ] || [ "hpp"x = ${suffix} ] ; then
+        if [ "cpp"x = ${suffix} ] || [ "c"x = ${suffix} ] || [ "cc"x = ${suffix} ] || [ "h"x = ${suffix} ] || [ "hpp"x = ${suffix} ] ; then
           format_file "${file}"
         fi
       fi
