@@ -1,6 +1,6 @@
 BasedOnStyle:                                   Chromium
 
-Language:                                       Cpp
+Language:        Cpp
 AccessModifierOffset:                           -4
 AlignAfterOpenBracket:                          Align
 AlignConsecutiveAssignments:                    true
@@ -71,7 +71,7 @@ IncludeCategories:
     Priority:                                   3
 IncludeIsMainRegex:                             '([-_](test|unittest))?$'
 IndentCaseLabels:                               false
-IndentPPDirectives:                             AfterHash
+IndentPPDirectives:                             None
 IndentWidth:                                    4
 IndentWrappedFunctionNames:                     false
 # JavaScriptQuotes:                              Leave
